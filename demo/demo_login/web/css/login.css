@@ -1,0 +1,83 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+form {
+    border: 2px solid #203d58;
+    padding: 30px 50px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.errors {
+    padding: 10px;
+    color: #FF0000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    max-width: 320px;
+}
+
+.textbox {
+    padding: 30px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+label {
+    width: 90px;
+    display: inline-block;
+    padding: 10px 10px 12px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+input[type=textbox] {
+    padding: 10px 10px 12px;
+    border: 1.5px solid #3f678b;
+    background-color: #e4e6e7;
+    border-radius: 0;
+}
+
+.name>input[type=textbox] {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    display: block;
+    background-color: #246ca7;
+    padding: 12px 30px 10px;
+    border: 1.5px solid #5ba1da;
+    border-radius: 7px;
+    margin: 20px auto;
+    color: #000;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+input[type=password] {
+    padding: 0px 10px 3px 10px;
+    width: 250px;
+    height: 35px;
+    border: 1.5px solid #203d58;
+    background-color: #e4e6e7;
+    border-radius: 0;
+}
+
+input[type=password]:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a {
+    margin: 50px;
+    color: #000;
+}
